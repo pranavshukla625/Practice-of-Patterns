@@ -1,0 +1,13 @@
+void alphaTriangle(int n) {
+    char ch=64+n;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<=i;j++)
+        {
+            cout<<ch<<" ";
+            ch--;
+        }
+        cout<<endl;
+        ch=64+n;
+    }
+}
